@@ -398,7 +398,7 @@ export default function App() {
                   <span style={{ fontFamily: "'Courier Prime', monospace", fontSize: 10, color: T_MUTED }}>v0.1.0</span>
                 </div>
                 <AIOrb />
-                <h3 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 17, textAlign: "center", marginBottom: 2, color: T_WHITE }}>Your Name Here</h3>
+                <h3 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 17, textAlign: "center", marginBottom: 2, color: T_WHITE }}>Animesh Subhash Wankhede</h3>
                 <p style={{ textAlign: "center", color: T_GOLD, fontWeight: 500, marginBottom: 8, fontSize: 10, letterSpacing: 1.5, textTransform: "uppercase", fontFamily: "'Space Grotesk', sans-serif" }}>Embedded · RADAR · AI · Athlete</p>
                 <div style={{ margin: "10px 0 12px" }}><BrainWave /></div>
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 6, marginBottom: 8 }}>
