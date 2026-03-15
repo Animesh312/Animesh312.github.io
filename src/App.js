@@ -24,19 +24,19 @@ const skillMatrix = [
 
 const experiences = [
   {
-    role: "RADAR Engineer", company: "DRDO – DAIT", period: "2023 – Present",
+    role: "Embedded Systems Engineer", company: "HMS Networks · Industrial Automation", period: "2024 – Present",
+    desc: "Currently building OPC UA communication stack with HMS Networks on eWON Edge and SVM devices for industrial automation. Writing core embedded C firmware for real-time sensor acquisition and machine communication. Reduced network latency by 60% across factory floor deployments.",
+    icon: "⚙️", tags: ["OPC UA", "HMS Networks", "eWON Edge", "SVM Devices", "Embedded C", "RTOS"], highlight: true, metric: "60% latency drop", color: T_CYAN,
+  },
+  {
+    role: "RADAR Engineer", company: "DRDO – DAIT", period: "2023 – 2024",
     desc: "Built real-time RADAR signal processing pipelines with DRDO-DAIT using USRP B210 SDR. Implemented C++ GNU Radio blocks for pulse compression, Doppler processing and target tracking. Integrated ML/DL models for target classification achieving sub-millisecond latency end-to-end.",
     icon: "📡", tags: ["USRP B210", "GNU Radio", "DRDO-DAIT", "C++", "RADAR DSP", "ML/DL"], highlight: true, metric: "< 1ms latency", color: T_GOLD,
   },
   {
     role: "ML / DL Engineer", company: "TE Connectivity", period: "2022 – 2023",
     desc: "Deployed ML and deep learning models for sensor data analytics at TE Connectivity. Leveraged AI to dramatically accelerate engineering workflows — cutting manual analysis time by 70%. Applied DNN quantization and pruning for edge inference on constrained hardware.",
-    icon: "🤖", tags: ["TE Connectivity", "DNN", "TensorFlow", "Edge AI", "Quantization", "Workflow AI"], highlight: true, metric: "70% faster workflows", color: T_GREEN,
-  },
-  {
-    role: "Embedded Systems Engineer", company: "HMS Networks · Industrial Automation", period: "2020 – 2022",
-    desc: "Built OPC UA communication stack with HMS Networks on eWON Edge and SVM devices for industrial automation. Wrote core embedded C firmware for real-time sensor acquisition and machine communication. Reduced network latency by 60% across factory floor deployments.",
-    icon: "⚙️", tags: ["OPC UA", "HMS Networks", "eWON Edge", "SVM Devices", "Embedded C", "RTOS"], highlight: false, metric: "60% latency drop", color: T_CYAN,
+    icon: "🤖", tags: ["TE Connectivity", "DNN", "TensorFlow", "Edge AI", "Quantization", "Workflow AI"], highlight: false, metric: "70% faster workflows", color: T_GREEN,
   },
 ];
 
